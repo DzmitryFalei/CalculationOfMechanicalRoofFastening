@@ -1,5 +1,8 @@
+import kernel.CalculationKernel;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CalculationKernel kernel = new CalculationKernel();
+        kernel.Calc();
     }
 }

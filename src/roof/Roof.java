@@ -1,8 +1,8 @@
 package roof;
 
-public abstract class Roof {
-    private int height;
-    private int width;
-    private int length;
-
+public interface Roof {
+    public double getHeightZ();
+    public double getWidth();
+    public double getLength();
+    public int getIdRoofTyp();
 }
