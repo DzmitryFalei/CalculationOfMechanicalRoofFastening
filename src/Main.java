@@ -1,8 +1,8 @@
-import kernel.CalculationKernel;
+import model.Controller;
 
 public class Main {
     public static void main(String[] args) {
-        CalculationKernel kernel = new CalculationKernel();
-        kernel.Calc();
+        Controller controller = new Controller();
+        controller.start();
     }
 }

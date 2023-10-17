@@ -1,29 +1,38 @@
 package ui;
 
+import model.Resource;
+
 import java.util.Scanner;
 
 public class UIConsole implements UserInterface{
+    Resource resource;
 
-    Scanner in = new Scanner(System.in);
-
-    @Override
-    public int territoryTypeRequest() {
-        System.out.println("Введите тип территории:(от 1 до 4)");
-        int territoryType = in.nextInt();
-        return territoryType;
+    public UIConsole(Resource resource) {
+        this.resource = resource;
     }
 
     @Override
-    public double heightRequest() {
-        System.out.println("Введите отметку верха кровли:(до 200)");
-        double height = in.nextDouble();
-        return height;
+    public int showMainMenu() {
+        return 0;
     }
 
     @Override
-    public int roofTypeRequest() {
-        System.out.println("Введите тип кровли:(от 1 до 1)");
-        int roofType = in.nextInt();
-        return roofType;
+    public int showResultsMenu() {
+        return 0;
+    }
+
+    @Override
+    public int setTerrainType() {
+        return 0;
+    }
+
+    @Override
+    public double setHeight() {
+        return 0;
+    }
+
+    @Override
+    public int setRoofType() {
+        return 0;
     }
 }

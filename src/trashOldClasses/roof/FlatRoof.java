@@ -1,6 +1,6 @@
-package roof;
+package trashOldClasses.roof;
 
-public class FlatRoofWithParapet implements Roof{
+public class FlatRoof implements Roof{
     @Override
     public double getHeightZ() {
         return 0;

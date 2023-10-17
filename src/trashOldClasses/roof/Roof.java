@@ -1,4 +1,4 @@
-package roof;
+package trashOldClasses.roof;
 
 public interface Roof {
     public double getHeightZ();

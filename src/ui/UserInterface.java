@@ -1,8 +1,10 @@
 package ui;
 
 public interface UserInterface {
-    public int territoryTypeRequest();
-    public double heightRequest();
-    public int roofTypeRequest();
+    public int showMainMenu();
+    public int showResultsMenu();
+    public int setTerrainType();
+    public double setHeight();
+    public int setRoofType();
 
 }

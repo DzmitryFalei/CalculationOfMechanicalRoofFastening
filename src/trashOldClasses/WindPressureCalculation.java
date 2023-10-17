@@ -1,4 +1,4 @@
-package kernel;
+package trashOldClasses;
 
 public class WindPressureCalculation {
     private double roughnessZo;

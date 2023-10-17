@@ -1,6 +1,11 @@
-package roofingData;
+package db.roofing;
 
-public class RoofingDataConnector implements RoofingResources{
+import model.Resource;
+
+public class Roof implements RoofData {
+
+    public Roof(Resource res) {
+    }
 
     @Override
     public double getPressureCoefficientFCpe1(int IdRoofType) {

@@ -1,4 +1,4 @@
-package kernel;
+package trashOldClasses;
 
 public class FasteningCalculation {
     double peakValueOfVelocityPressureQpZ;
